@@ -9,7 +9,6 @@ var screen_size
 func _ready():
 	screen_size = get_viewport_rect().size
 	hide()
-	connect("hit", get_parent(), "game_over")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

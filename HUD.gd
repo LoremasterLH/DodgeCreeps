@@ -4,8 +4,7 @@ signal start_game
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$MessageTimer.connect("timeout", self, "_on_MessageTimer_timeout")
-	$StartButton.connect("pressed", self, "_on_StartButton_pressed")
+	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
